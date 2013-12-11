@@ -5,7 +5,7 @@
       	<li><img id="navbarlogo" src="images/LM1.png"></li>
         <li class="ddmenuhead"><a href="#">Nuestra Creacion</a>
           <ul>
-            <li><a href="lacreacion.php" onclick="console.log(1)">La Creacion</a></li>
+            <li><a href="nuestra-creacion.php" onclick="console.log(1)">La Creacion</a></li>
             
           </ul>
         </li>
