@@ -1,16 +1,35 @@
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  outline: none;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+body a{
+	text-decoration:none;
+	color:#008575;
+	font-weight:lighter;
+}
+#content{
+ margin:0 auto;
+ width:950px;
+}
+.contact_table td {vertical-align:top;}
+.contact_table td h3:first-child {margin-top:0;}
+#contact_form form > div {margin-bottom:20px;}
+#contact_form div > label {display:inline-block; width:100px; vertical-align: top; padding-top: 3px;}
+#contact_form div > label.simple-label {width:auto; margin-right: 10px;}
+#contact_form textarea {width:240px; height:100px;}
+#contact_form .captcha {width:80px !important; }
+input.inputbox,
+textarea {margin:0; padding:4px 5px; font-size:12px; border:1px solid #ccc; color:#555; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px; width:185px;}
+input.inputbox:focus,
+input.inputbox:hover,
+textarea:focus,
+textarea:hover {border:1px solid #aaa; color:#777; outline:none;}
+select { padding:3px; font-size:12px; border:1px solid #ccc; color:#555; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px;}
+input[type=submit], button {font:11px Arial, Helvetica, sans-serif; text-transform:uppercase; text-shadow:0 1px 0 rgba(0,0,0,0.4); color:#fff; line-height:1; display:inline-block; padding:6px 27px 7px 10px; background-image:url(../images/learn-more.png); background-repeat:no-repeat; background-position:right center; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px; border:0; cursor:pointer;}
+input[type=submit]:hover, button:hover {background-color:#999; color:#fff;}
+
+.title{
+	margin-top:15px;
+	margin-bottom:0;
+}
+#contact_left{
+	padding-top:13px;
 }
 @font-face {
   font-family: 'Raleway';
@@ -19,17 +38,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   src: local('Raleway'), url(http://themes.googleusercontent.com/static/fonts/raleway/v6/IczWvq5y_Cwwv_rBjOtT0w.woff) format('woff');
 }
 html { height: 101%; }
-body { text-shadow:none; background: #eaeaea url('images/bg.png'); font-size: 62.5%; line-height: 1; font-family:'Raleway','Helvetica',arial,serif;}
+body { margin:0;text-shadow:none; background: #eaeaea url('images/bg.png'); font-size: 62.5%; line-height: 1; font-family:'Raleway','Helvetica',arial,serif;}
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
-ol, ul { list-style: none; }
-
-blockquote, q { quotes: none; }
-blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
 strong { font-weight: bold; } 
 
 table { border-collapse: collapse; border-spacing: 0; }
-img { border: 0; max-width: 100%; }
 
 p { font-size: 1.2em; line-height: 1.35em; margin-bottom: 15px; color: #434343; }
 
@@ -65,6 +78,7 @@ p { font-size: 1.2em; line-height: 1.35em; margin-bottom: 15px; color: #434343; 
 h2{
 	font-size:2.2em;
 	margin-bottom:13px;
+	font-weight:lighter;
 }
 #homecontent{
 	padding:30px;
@@ -94,7 +108,7 @@ footer p{
   float: left;
 
   font-weight: bold;
-  height:90px;
+  
   padding-top:41px;
   text-decoration: none;
 font-weight:lighter;
@@ -107,7 +121,7 @@ font-weight:lighter;
 #ddmenu ul {
   position: absolute;
   top: 98px;
-  width: 130px;
+  width: 170px;
   background: #fff;
   display: none;
   margin: 0;
@@ -118,6 +132,10 @@ font-weight:lighter;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
+#ddmenu ul li{
+	margin-bottom:2px;
+}
+
 /* tooltip arrow */
 #ddmenu ul:after {
   content: "";
@@ -125,7 +143,7 @@ font-weight:lighter;
   height: 0;
   position: absolute;
   bottom: 100%;
-  left: 8px;
+  left: 70px;
   border-width: 0 8px 8px 8px;
   border-style: solid;
   border-color: #fff transparent; 
@@ -137,7 +155,7 @@ font-weight:lighter;
   height: 0;
   position: absolute;
   bottom: 100%;
-  left: 4px;
+  left: 68px;
   border-width: 0 10px 10px 10px;
   border-style: solid;
   border-color: rgba(0, 0, 0, 0.1) transparent;  
@@ -152,9 +170,9 @@ font-weight:lighter;
 
 #ddmenu ul li a {
   display: block;
-  width: 100%;
+  
   padding: 6px 7px;
-  line-height: 1.4em;
+  width:92%;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
