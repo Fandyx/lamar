@@ -4,19 +4,19 @@
       	<li><img id="navbarlogo" src="images/LM1.png"></li>
         <li class="ddmenuhead"><a href="#">Nuestra Creacion</a>
           <ul>
-            <li><a href="#">La Creacion</a></li>
+            <li><a href="lacreacion.php">La Creacion</a></li>
             
           </ul>
         </li>
         <li class="ddmenuhead"><a href="#">Ubicación</a>
           <ul>
-            <li><a href="#">Mapa</a></li>
+            <li><a href="mapa.php">Mapa</a></li>
              </ul>
         </li>
         <li class="ddmenuhead"><a href="#">Espacios Para Todos</a>
           <ul>
-            <li><a href="#">Todo lo que necesitas para la familia</a></li>
-            <li><a href="#">Imágenes ZONAS COMUNALES</a></li>
+            <li><a href="familia.php">Todo lo que necesitas para la familia</a></li>
+            <li><a href="comunales.php">ZONAS COMUNALES</a></li>
           </ul>
         </li>
         <li class="ddmenuhead"><a href="#">Espacios Privados</a>
@@ -28,8 +28,8 @@
         </li>
          <li class="ddmenuhead"><a href="#">Nuestro Equipo</a>
         	<ul>
-        	 <li><a href="#">Equipo</a></li>
-            <li><a href="#">Contáctenos</a></li>
+        	 <li><a href="equipo.php">Equipo</a></li>
+            <li><a href="contactenos.php">Contáctenos</a></li>
             </ul>
         </li>
       </ul>
