@@ -21,9 +21,9 @@
         </li>
         <li class="ddmenuhead"><a href="#">Espacios Privados</a>
         	<ul>
-        	 <li><a href="#">Render del apto interior</a></li>
-            <li><a href="#">Planta General</a></li>
-            <li><a href="#">Planos Apartamento Tipo y PH</a></li>	
+        	 <li><a href="interior.php">Render del apto interior</a></li>
+            <li><a href="general.php">Planta General</a></li>
+            <li><a href="tipo.php">Planos Apartamento Tipo y PH</a></li>	
         	</ul>
         </li>
          <li class="ddmenuhead"><a href="#">Nuestro Equipo</a>
