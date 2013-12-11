@@ -1,6 +1,10 @@
 $(document).ready(function(){
     
-  $('#ddmenu li').hover(function () {
+ toggleList();
+	
+});
+function toggleList(){
+	 $('#ddmenu li').hover(function () {
      clearTimeout($.data(this,'timer'));
      $('ul',this).stop(true,true).slideDown(200);
   }, function () {
@@ -8,9 +12,7 @@ $(document).ready(function(){
       $('ul',this).stop(true,true).slideUp(200);
     }, this), 100));
   });
-	mapPointer();
-});
-
+}
 function mapPointer(){
 	
 	

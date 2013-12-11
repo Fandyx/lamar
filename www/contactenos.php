@@ -63,5 +63,9 @@ Contacto</a>
 <?php
 include 'footer.php';
 ?>
+<script>
+	$(document).ready(function(){mapPointer();toggleList();});
+</script>
 </body>
+
 </html>

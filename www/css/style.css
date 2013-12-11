@@ -125,6 +125,7 @@ font-weight:lighter;
   background: #fff;
   display: none;
   margin: 0;
+  z-index:3;
   padding: 7px 0;
   list-style: none;
   border-radius: 3px;
@@ -203,7 +204,7 @@ font-weight:lighter;
 	font-size: 12px;
 }
 
-#map{
+#mapa{
 	width: 600px;
   	height: 600px;
   	float:right;
