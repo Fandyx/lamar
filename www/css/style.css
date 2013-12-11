@@ -19,7 +19,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   src: local('Raleway'), url(http://themes.googleusercontent.com/static/fonts/raleway/v6/IczWvq5y_Cwwv_rBjOtT0w.woff) format('woff');
 }
 html { height: 101%; }
-body { text-shadow:none; background: #eaeaea url('images/bg.png'); font-size: 62.5%; line-height: 1; font-family:'Raleway','Helvetica',arial,serif; padding-bottom: 60px; }
+body { text-shadow:none; background: #eaeaea url('images/bg.png'); font-size: 62.5%; line-height: 1; font-family:'Raleway','Helvetica',arial,serif;}
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
 ol, ul { list-style: none; }
@@ -34,7 +34,10 @@ img { border: 0; max-width: 100%; }
 p { font-size: 1.2em; line-height: 1.35em; margin-bottom: 15px; color: #434343; }
 
 #w { display: block; width:100%; margin: 0 auto; margin-top: 0px; } 
-
+#homeimg{
+	height:500px;
+	width:1920px;
+}
 
 #ddmenu {
   display: block;
@@ -59,16 +62,33 @@ p { font-size: 1.2em; line-height: 1.35em; margin-bottom: 15px; color: #434343; 
 	text-align:center;
 }
 #ddmenu li { display: block; position: relative; float: left;width:16.6666%;font-size: 1.45em; text-shadow: 1px 1px 0 #fff; }
-
+h2{
+	font-size:2.2em;
+	margin-bottom:13px;
+}
+p{
+	margin:0 0 20px 0;
+	font-size:12px;
+	font-family: Arial, Helvetica, 'tahoma sans-serif';
+}
+footer{
+	background:#00525D;
+	padding:36px 12px 12px 10px;
+	font-family: Arial, Helvetica, 'tahoma sans-serif';
+	
+}
+footer p{
+	color:#DDD
+}
 #ddmenu li a {
   display: block;
   float: left;
 
   font-weight: bold;
   height:90px;
-  padding-top:52px;
+  padding-top:41px;
   text-decoration: none;
-
+font-weight:lighter;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;

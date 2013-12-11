@@ -13,15 +13,20 @@ include 'header.php';
 ?>
   </header>
   <div id="content">
-  	<img src="images/ext.jpg">
+  	<div id="homeimgcontainer">
+  	<img id="homeimg" src="images/ext.jpg">
+  	</div>
+  	<div id="homecontent">
+  		<h2>Nuestra Creación</h2>
+  		<p>
+		La mar es un edificio de 12 pisos con apartamentos desde 82,3 hasta 131,6 m2 de construcción, además de amplios penthouses.
+  		</p>
+  	</div>
   </div>
   <footer>
-  	<div id="leftfooter">
-	<p>© Copyright 2013 <a href="http://www.conaco-sa.com">Conaco-SA.com</a>. Todos los derechos reservados.</p>
-  	</div>
-  	<div id="rightfooter">
-  		
-  	</div>
+  	<?php
+include 'footer.php';
+?>
   </footer>
 <script type="text/javascript">
 $(document).ready(function(){
