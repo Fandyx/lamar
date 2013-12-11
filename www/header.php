@@ -17,7 +17,7 @@
         <li class="ddmenuhead"><a href="#">Espacios Para Todos</a>
           <ul>
             <li><a href="familia.php">Todo lo que necesitas para la familia</a></li>
-            <li><a href="comunales.php">ZONAS COMUNALES</a></li>
+            <li><a href="comunales.php">Zonas Comunales</a></li>
           </ul>
         </li>
         <li class="ddmenuhead"><a href="#">Espacios Privados</a>
