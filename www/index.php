@@ -13,7 +13,8 @@ include 'header.php';
 ?>
   </header>
   <div id="content">
-  	<div id="homeimgcontainer">
+  	<div id="homeimgcontainer" align="center">
+  		
   	<img id="homeimg" src="images/ext.jpg">
   	</div>
   	<div id="homecontent">
