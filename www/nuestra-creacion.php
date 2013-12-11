@@ -8,8 +8,7 @@ include 'header.php';
 ?>
 <div id="content">
 	<p>&nbsp;</p>
-	
-	<div id="mapp">
+	<div id="mapp2">
 		<p>&nbsp;</p>
 		<h2>Nuestra Creación</h2>
 		<p>La mar es un edificio de 12 pisos con apartamentos desde 82,3 hasta 131,6 m2 de construcción, además de amplios penthouses.
@@ -20,7 +19,7 @@ include 'header.php';
 			planta eléctrica de suplencia Total. Servicio Públicos Estrato 4.
 		</p>
 	</div>
-	<div id="map">
+	<div id="mapa">
 		
 		<img src="images/facha2.png">
 	</div>
