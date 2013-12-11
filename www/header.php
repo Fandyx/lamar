@@ -2,7 +2,7 @@
   <div id="w">
     <nav>
       <ul id="ddmenu">
-      	<li><img id="navbarlogo" src="images/LM1.png"></li>
+      	<a href="index.php"><li><img id="navbarlogo" src="images/LM1.png"></li></a>
         <li class="ddmenuhead"><a href="#">Nuestra Creacion</a>
           <ul>
             <li><a href="nuestra-creacion.php" onclick="console.log(1)">La Creacion</a></li>
