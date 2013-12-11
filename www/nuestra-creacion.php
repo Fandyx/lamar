@@ -11,13 +11,38 @@ include 'header.php';
 	<div id="mapp2">
 		<p>&nbsp;</p>
 		<h2>Nuestra Creación</h2>
-		<p>La mar es un edificio de 12 pisos con apartamentos desde 82,3 hasta 131,6 m2 de construcción, además de amplios penthouses.
-		</p>
-		<p>Ubicado en la Carrera 42 H # 84B-41 de Barranquilla, 
-			con excelentes vías de acceso, Dos (2) ascensores, 
-			escaleras contra-incendio, tanques de reserva de agua, 
-			planta eléctrica de suplencia Total. Servicio Públicos Estrato 4.
-		</p>
+		<p>
+			<b>La mar es un edificio de 12 pisos con apartamentos desde 82,3 hasta 131,6 m2 de construcción, además de amplios penthouses.
+		</b></p>
+		<ul id="creacion-list">
+			<li>
+				Lobby
+			</li>
+			<li>
+				Salón Social
+			</li>
+			<li>
+				Zona de BBQ
+			</li>
+			<li>
+				Parque Infantil
+			</li>
+			<li>
+				Gimnasio dotado con elíptica, multi-fuerza, banco de abdominales y pesas.
+			</li>
+			<li>
+				Piscina y Jacuzzi en la terraza mirador (Piso 12)
+			</li>
+			<li>
+				Dos (2) ascensores.
+			</li>
+			<li>
+				Planta eléctrica de Suplencia Total
+			</li>
+			<li>
+				Parqueaderos dobles para los apartamentos tipo 3,4,5,6 y Penthouses
+			</li>
+		</ul>
 	</div>
 	<div id="mapa">
 		

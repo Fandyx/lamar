@@ -37,8 +37,8 @@ input[type=submit]:hover, button:hover {background-color:#999; color:#fff;}
   font-weight: 400;
   src: local('Raleway'), url(http://themes.googleusercontent.com/static/fonts/raleway/v6/IczWvq5y_Cwwv_rBjOtT0w.woff) format('woff');
 }
-html { height: 101%; }
-body { margin:0;text-shadow:none; background: #eaeaea url('images/bg.png'); font-size: 62.5%; line-height: 1; font-family:'Raleway','Helvetica',arial,serif;}
+
+body { margin:0;text-shadow:none;font-size: 62.5%; line-height: 1; font-family:'Raleway','Helvetica',arial,serif;}
 
 strong { font-weight: bold; } 
 
@@ -199,13 +199,16 @@ font-weight:lighter;
 }
 
 #mapp2{
-	width: 150px;
+	width: 375px;
   	height: 500px;
   	display:inline-block;
   	text-align: center;
   	margin-right: 10px;
 	margin-bottom: 10px;
 	margin-left: 70px;
+}
+#mapp2 h2{
+	color:#008575;
 }
 
 #mapp2 p{
@@ -215,7 +218,7 @@ font-weight:lighter;
 }
 
 #mapa{
-	width: 620px;
+	width: auto;
   	height: 500px;
   	float:right;
   	margin-right: 10px;
@@ -260,4 +263,26 @@ font-weight:lighter;
   	margin-right: 95px;
 	margin-bottom: 10px;
 	margin-left: 70px;
+}
+#creacion-list li{
+	text-align:left;
+	font-size:16px;
+	margin-bottom:10px;
+}
+#mapp-text{
+	
+    float: right;
+    width: 53%;
+    line-height: 3em;
+
+}
+
+#mapa-img{
+	width:45%;
+}
+#mapa-img img{
+	width:100%;
+}
+#mapp-text h2{
+	color:#008575;
 }
