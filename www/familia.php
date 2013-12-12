@@ -6,14 +6,18 @@
 <?php
 include 'header.php';
 ?>
-<div id="content">
-	<div id="izq">
-		<h2>Titulo</h2>
-		<img src="images/facha2.png">
+<div id="fcontent">
+	<div id="familiaimgcontainer">
+		<img class="familiaimg" src="images/ninos.jpg">
+	
+	
+		<img class="familiaimg" src="images/piscina.jpg">
 	</div>
-	<div id="der">
-		<h2>Titulo</h2>
-		<img src="images/facha2.png">
+	<div id="homecontent">
+	<h2>Hogar</h2>
+	<p>
+		Es donde todos tenemos donde sentirnos comodos.
+	</p>
 	</div>
 </div>
 <?php

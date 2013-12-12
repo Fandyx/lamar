@@ -7,7 +7,7 @@
 include 'header.php';
 ?>
 	<div id="map" style="width:100%;
-height:200px; overflow: inherit !important;z-index:1"></div>
+height:200px; overflow: inherit !important;z-index:-1"></div>
 <div id="content" >
 
 	<div class="item-page">

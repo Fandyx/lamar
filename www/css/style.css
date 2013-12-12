@@ -276,7 +276,10 @@ font-weight:lighter;
     line-height: 3em;
 
 }
-
+.familiaimg{
+	width:49.8%;
+	height:500px;
+}
 #mapa-img{
 	width:45%;
 }

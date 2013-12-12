@@ -15,6 +15,7 @@ include 'header.php';
 			con excelentes vías de acceso, Dos (2) ascensores, 
 			escaleras contra-incendio, tanques de reserva de agua, 
 			planta eléctrica de suplencia Total. Servicio Públicos Estrato 4.
+		
 		</h2>
 	</div>
 	<div id="mapa-img">
