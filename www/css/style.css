@@ -289,3 +289,6 @@ font-weight:lighter;
 #mapp-text h2{
 	color:#008575;
 }
+#list{
+	display: inline;
+}
