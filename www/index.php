@@ -17,6 +17,7 @@ include 'header.php';
   		<p>
 		La mar es un edificio de 12 pisos con apartamentos desde 82,3 hasta 131,6 m2 de construcción, además de amplios penthouses.
   		</p>
+  		<div><a href="nuestra-creacion.php">Ver mas</a></div>
   	</div>
   </div>
   

@@ -3,6 +3,41 @@ body a{
 	color:#008575;
 	font-weight:lighter;
 }
+#list ul{
+	padding-bottom:40px;
+}
+#submit-form{
+	background:#73C7BA;
+	color:white;
+}
+ul{
+	z-index: 2;
+}.rightimgdiv,.leftimgdiv{
+	
+    position: absolute;
+    padding: 12px 86px;
+    background: #73C7BA;
+    color: white;
+    opacity: .85;
+	top:120px;
+	font-size:15px;
+}
+#homecontent a{
+	font-size:12px;
+}
+
+.rightimgdiv{
+	right:0;
+}
+.leftimgdiv{
+	left:0;
+}
+#list ul li{
+	float:left;
+	margin-right:21px;
+	margin-bottom:5px;
+	font-size:15px;
+}
 #content{
  margin:0 auto;
  width:950px;

@@ -8,9 +8,14 @@ include 'header.php';
 ?>
 <div id="fcontent">
 	<div id="familiaimgcontainer">
+		<div class="leftimgdiv">
+			Parque infantil
+		</div>
 		<img class="familiaimg" src="images/ninos.jpg">
 	
-	
+	<div class="rightimgdiv">
+		Piscina y Jacuzzi
+	</div>
 		<img class="familiaimg" src="images/piscina.jpg">
 	</div>
 	<div id="homecontent">

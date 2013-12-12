@@ -9,14 +9,14 @@
         </li>
         <li class="ddmenuhead"><a href="#">Espacios Para Todos</a>
           <ul>
-            <li><a href="familia.php">Todo lo que necesitas para la familia</a></li>
+            <li><a href="familia.php">Espacios para la familia</a></li>
             <li><a href="comunales.php">Zonas Comunales</a></li>
           </ul>
         </li>
         <li class="ddmenuhead"><a href="#">Espacios Privados</a>
         	<ul>
         	 <li><a href="interior.php">Apartamentos</a></li>
-            <li><a href="general.php">Planta General</a></li>
+         
             <li><a href="tipo.php">Planos Apartamento Tipo y PH</a></li>	
         	</ul>
         </li>

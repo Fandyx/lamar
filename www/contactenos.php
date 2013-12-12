@@ -4,6 +4,44 @@
 
 <body style="margin: 0;">
 <?php
+require 'PHPMailerAutoload.php';
+require("class.phpmailer.php");
+
+if (isset($_REQUEST['rp_email'])&&isset($_REQUEST['rp_message']))
+
+  {
+  		
+	
+  $to =$_REQUEST['department'];	
+  $name = $_REQUEST['rp_name'] ;	
+  $email = $_REQUEST['rp_email'] ;
+  $subject = $_REQUEST['rp_subject'] ;
+  $message = $_REQUEST['rp_message'] ;
+
+  if( $to=="1"){
+  	$to="info@la-mar.co";
+  }else{
+  	$to="ventas@la-mar.co";
+  }
+  	$mail = new PHPMailer;
+
+$mail->isSendmail();
+$mail->setFrom($email,"From");
+$mail->msgHTML($message);
+$mail->addAddress("sfandinob@gmail.com");
+
+ if(!$mail->Send()) 
+ {
+  echo "Mailer Error: " . $mail->ErrorInfo;
+ }
+ else 
+ {
+  echo "Message sent!";
+ }
+
+  }
+  ?>
+<?php
 include 'header.php';
 ?>
 	<div id="map" style="width:100%;
@@ -22,7 +60,7 @@ Contacto</a>
 <p>Por favor complete el siguiente formulario (todos los campos son obligatorios):</p>
 <p>	</p><div class="moduletable">
 <div id="contact_form" class="rapid_contact ">
-<form action="http://www.laria.com.co/home/contacto" method="post">
+<form action="#" method="post">
 <div><label for="rp_name">Nombre:</label><input class=" inputbox " type="text" id="rp_name" name="rp_name" value=""></div>
 <div><label for="rp_email">Email:</label><input class=" inputbox " type="text" name="rp_email" id="rp_email" value=""></div>
 <div><label for="rp_subject">Asunto:</label><input class=" inputbox " type="text" name="rp_subject" id="rp_subject" value=""></div>
@@ -42,11 +80,8 @@ Contacto</a>
 <p>Carrera 42H No. 84B-41 - Barranquilla&nbsp; - Colombia</p>
 <p>Cel: 321-3115929 / 317-4287841 / 321-3123772</p>
 <p>
-<script type="text/javascript">var prefix='&#109;a'+'i&#108;'+'&#116;o';var path='hr'+'ef'+'=';var addy14778='v&#101;nt&#97;s'+'&#64;';addy14778=addy14778+'l&#97;r&#105;&#97;'+'&#46;'+'c&#111;m'+'&#46;'+'c&#111;';var addy_text14778='v&#101;nt&#97;s'+'&#64;'+'l&#97;r&#105;&#97;'+'&#46;'+'c&#111;m'+'&#46;'+'c&#111;';document.write('<a '+path+'\''+prefix+':'+addy14778+'\'>');document.write(addy_text14778);document.write('<\/a>');</script><a href="mailto:ventas@laria.com.co">ventas@laria.com.co</a><script type="text/javascript">document.write('<span style=\'display: none;\'>');</script><span style="display: none;">Esta dirección de correo electrónico está protegida contra spambots. Usted necesita tener Javascript activado para poder verla.
-<script type="text/javascript">document.write('</');document.write('span>');</script></span>,
-<script type="text/javascript">var prefix='&#109;a'+'i&#108;'+'&#116;o';var path='hr'+'ef'+'=';var addy29172='&#105;nf&#111;'+'&#64;';addy29172=addy29172+'l&#97;r&#105;&#97;'+'&#46;'+'c&#111;m'+'&#46;'+'c&#111;';var addy_text29172='&#105;nf&#111;'+'&#64;'+'l&#97;r&#105;&#97;'+'&#46;'+'c&#111;m'+'&#46;'+'c&#111;';document.write('<a '+path+'\''+prefix+':'+addy29172+'\'>');document.write(addy_text29172);document.write('<\/a>');</script><a href="mailto:info@laria.com.co">info@laria.com.co</a><script type="text/javascript">document.write('<span style=\'display: none;\'>');</script><span style="display: none;">Esta dirección de correo electrónico está protegida contra spambots. Usted necesita tener Javascript activado para poder verla.
-<script type="text/javascript">document.write('</');document.write('span>');</script></span></p>
-<p>&nbsp;</p>
+<a href="mailto:ventas@la-mar.co">ventas@la-mar.co</a>,
+<a href="mailto:info@la-mar.co">info@la-mar.co</a>
 <h2>Promoción, Venta y Construcción</h2>
 <p><span style="font-size: 12pt;">Constructora Conaco S.A.</span></p>
 <p>&nbsp;Tel: (57-1) 7436723 / 24 / 25 - Bogotá&nbsp;&nbsp; -&nbsp; <a href="http://www.conaco-sa.com" target="_blank">www.conaco-sa.com</a></p>
